@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BazArt</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootsrap-icons@1.9.1/font/bootsrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/css/mainCarrito.css">
+    <link rel="icon" href="./img/logos/logo.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">BazArt <img src="./assets/img/logos/BazArt.png" alt="" style="width: 100px; height: auto;"></h1>
+            </header>
+            <nav> <!--Menu Principal-->
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-flower1"></i>Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="electronica" class="boton-menu boton-categoria"><i class="bi bi-flower1"></i>Electronica y Tecnologia</button>
+                    </li>
+                    <li>
+                        <button id="hogar" class="boton-menu boton-categoria"><i class="bi bi-flower1"></i>Hogar y Jardin</button>
+                    </li>
+                    <li>
+                        <button id="moda" class="boton-menu boton-categoria"><i class="bi bi-flower1"></i>Moda y Accesorios</button>
+                    </li>
+                    <li>
+                        <button id="salud" class="boton-menu boton-categoria"><i class="bi bi-flower1"></i>Salud y Belleza</button>
+                    </li>
+                    <li>
+                        <button id="deportes" class="boton-menu boton-categoria"><i class="bi bi-flower1"></i>Deportes</button>
+                    </li>
+                    <li>
+                        <button id="mascotas" class="boton-menu boton-categoria"><i class="bi bi-flower1"></i>Mascotas</button>
+                    </li>
+                    <li>
+                        <button id="papeleria" class="boton-menu boton-categoria"><i class="bi bi-flower1"></i>Arte y papeleria</button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i>Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2024 Sakura Street</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">    
+            </div>  
+        </main>
+    </div>
+
+    <script src="./assets/js/mainCarrito.js"></script>
+</body>
+</html>
