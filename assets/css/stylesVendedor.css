@@ -31,6 +31,19 @@ header {
     padding: 0 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+#logout-button {
+    background-color: #e53e3e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#logout-button:hover {
+    background-color: #c53030;
+}
 
 header .logo-container {
     display: flex;
@@ -185,5 +198,3 @@ button:active {
     transform: scale(0.98);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
-
-
