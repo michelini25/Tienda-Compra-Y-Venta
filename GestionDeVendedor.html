@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestión de Vendedores</title>
     <link rel="stylesheet" href="stylesVendedor.css">
+    <!-- Librería de Supabase -->
+    <script src="https://unpkg.com/@supabase/supabase-js"></script>
 </head>
 <body>
     <header>
         <div class="logo-container">
-            <!-- Imagen del logo -->
             <img class="logo" src="vendedor/Gestiondeproductos.png" alt="Logo">
             <div class="company-name">Gestión de Vendedores</div>
         </div>
@@ -22,11 +23,9 @@
     </header>
 
     <main>
-        <!-- Sección de gestión de productos -->
         <section id="product-management">
             <div class="Texto animate">
                 <h2 class="T4">Gestión de Productos</h2>
-                <!-- Imagen de fondo para esta sección -->
                 <img src="vendedor/Gestiondeproductos2.jpg.png" alt="Imagen de productos" class="img-seccion" width="150" height="150">
             </div>
             <form id="product-form">
@@ -39,27 +38,22 @@
             <div id="product-list"></div>
         </section>
 
-        <!-- Sección de balance de ventas -->
         <section id="sales-monitoring">
             <div class="Texto animate">
                 <h2 class="T4">Balance de Ventas</h2>
                 <p class="T3">Total de Ventas: $<span id="total-sales">0</span> </p>
                 <button onclick="resetSales()">Eliminar Total de Ventas</button>
-                <br>
-                <br>
-                <!-- Imagen de fondo para esta sección -->
-                <img src="vendedor/balance.jpg" alt="Imagen de ventas" class="img-seccion"  width="450" height="400">
+                <br><br>
+                <img src="vendedor/balance.jpg" alt="Imagen de ventas" class="img-seccion" width="450" height="400">
             </div>
         </section>
     </main>
 
-    <!-- Pie de página -->
     <footer class="pie-pagina">
         <div class="grupo1">
             <div class="box">
                 <figure>
-                    <!-- Imagen de logo footer -->
-                    <img src="vendedor/Gestion-de-Vendedores-de-autoservicio-y-conveniencia.png" alt="Logo Footer"  width="300" height="300">
+                    <img src="vendedor/Gestion-de-Vendedores-de-autoservicio-y-conveniencia.png" alt="Logo Footer" width="300" height="300">
                 </figure>
             </div>
             <div class="box">
@@ -68,10 +62,8 @@
             </div>
             <div class="box red-social">
                 <h2>Síguenos</h2>
-                <!-- Iconos de redes sociales -->
                 <a href="#"><img src="vendedor/facebook" alt="Facebook" class="social-icon" width="40" height="40"></a>
-
-                <a href="#"><img src="vendedor/Instagram" alt="Instagram" width="40" height="40" ></a>
+                <a href="#"><img src="vendedor/Instagram" alt="Instagram" width="40" height="40"></a>
                 <a href="#"><img src="vendedor/X" alt="X" width="40" height="40"></a>
             </div>
         </div>
@@ -80,6 +72,7 @@
         </div>
     </footer>
 
+    <!-- Script para gestionar productos y ventas -->
     <script src="scriptVendedor.js"></script>
 </body>
 </html>
