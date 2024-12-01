@@ -60,7 +60,7 @@ Implementar un sistema de gestión de usuarios con roles de compradores y vended
 3. Abre el archivo `index.html` en tu navegador para ver la plataforma en acción.  
 
 ---
-## ** Despliegue**
+## **Despliegue**
 El proyecto está disponible en línea mediante Netlify. Puedes acceder a la plataforma en el siguiente enlace: https://cool-semifreddo-a3ba1b.netlify.app/ 
 
 
