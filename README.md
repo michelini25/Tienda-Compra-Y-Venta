@@ -60,6 +60,9 @@ Implementar un sistema de gestión de usuarios con roles de compradores y vended
 3. Abre el archivo `index.html` en tu navegador para ver la plataforma en acción.  
 
 ---
+## ** Despliegue**
+El proyecto está disponible en línea mediante Netlify. Puedes acceder a la plataforma en el siguiente enlace: https://cool-semifreddo-a3ba1b.netlify.app/ 
+
 
 ## **Resumen en Markdown (Abstract)**
 Proyecto diseñado para facilitar la compraventa de mercancías mediante un sistema intuitivo y dinámico. Ofrece funcionalidades para compradores y vendedores, permitiendo a los usuarios gestionar sus productos de manera eficiente, utilizando tecnologías modernas como LocalStorage y JSON para garantizar una experiencia fluida y persistente.
