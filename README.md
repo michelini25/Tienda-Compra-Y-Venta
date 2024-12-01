@@ -1,69 +1,65 @@
 # Tienda-Compra-Y-Venta
 
-Descripción
+**Descripción:**  
 Plataforma web para la compraventa de mercancías. Este sistema permite:
 
-A los compradores: Explorar productos, añadirlos a un carrito de compras, y mantener su estado utilizando almacenamiento persistente.
-A los vendedores: Administrar los productos que ofrecen y monitorear su balance de ventas.
-Este proyecto utiliza tecnologías web modernas y almacenamiento local para ofrecer una experiencia fluida y eficiente para los usuarios.
+- **A los compradores:** Explorar productos, añadirlos a un carrito de compras, y mantener su estado utilizando almacenamiento persistente.  
+- **A los vendedores:** Administrar los productos que ofrecen y monitorear su balance de ventas.  
 
-INTEGRANTES: 
-- Cortina Chavez Vania
-- Mota Nicolas Adrian
-- Nopal Alvarado Eric David
-- Santillan Aguilar Vania
-- Villanueva Tirado Karina Michelle 
+Este proyecto utiliza tecnologías web y almacenamiento local para ofrecer una experiencia fluida y eficiente para los usuarios.
 
-Objetivos del Proyecto
+## Integrantes
+- Cortina Chávez Vania  
+- Mota Nicolás Adrián  
+- Nopal Alvarado Eric David  
+- Santillán Aguilar Vania  
+- Villanueva Tirado Karina Michelle  
 
-Implementar un sistema de gestión de usuarios con roles de compradores y vendedores.
-Manejar productos dinámicamente: Agregar, modificar y eliminar.
-Implementar un carrito de compras funcional y persistente utilizando LocalStorage.
-Conectar la aplicación a una base de datos o API para gestionar usuarios y productos.
-Desplegar la plataforma en línea para garantizar acceso global.
+---
 
-Características
+## **Objetivos del Proyecto**
+Implementar un sistema de gestión de usuarios con roles de compradores y vendedores. Permitir:
+- Manejo de productos dinámicamente (crear, añadir, modificar y eliminar).  
+- Implementar un carrito de compras funcional persistente utilizando LocalStorage.  
+- Conectar la aplicación a una base de datos o API para gestionar usuarios y productos.  
 
-Compradores
-Explorar el catálogo de productos.
-Agregar productos al carrito de compras.
-Modificar o eliminar artículos del carrito.
-Almacenar el estado del carrito en el navegador para persistencia entre sesiones.
+---
 
-Vendedores
-Administrar productos: Crear, editar y eliminar.
-Monitorear ventas y visualizar balances.
+## **Características**
+- **Compradores:**  
+  - Explorar el catálogo de productos.  
+  - Agregar productos al carrito de compras.  
+  - Modificar o eliminar artículos del carrito.  
+  - Almacenar el estado del carrito en el navegador para persistencia entre sesiones.  
 
-Datos y Almacenamiento
-Gestión de datos con JSON.
-Persistencia de datos mediante LocalStorage.
-Conexión con base de datos para autenticar usuarios y gestionar transacciones.
+- **Vendedores:**  
+  - Administrar productos: Crear, editar y eliminar.  
+  - Monitorear ventas y visualizar balances.  
 
-Tecnologías Utilizadas
-HTML5: Para estructurar el contenido de la plataforma.
-CSS3: Para estilizar la aplicación y proporcionar una experiencia visual agradable.
-JavaScript: Para la manipulación del DOM y la lógica de la aplicación.
-LocalStorage: Para persistir el estado del carrito y datos locales.
-Base de Datos: Para gestionar usuarios y productos.
-Netlify: Para el despliegue en línea de la plataforma.
+- **Datos y Almacenamiento:**  
+  - Gestión de datos con JSON.  
+  - Persistencia de datos mediante LocalStorage.  
+  - Conexión con una base de datos para gestión de usuarios y productos.  
 
+---
 
-Instrucciones de Uso
+## **Tecnologías Utilizadas**
+- **HTML5:** Para estructurar el contenido de la plataforma.  
+- **CSS3:** Para estilizar la aplicación y mejorar la experiencia visual.  
+- **JavaScript:** Para la manipulación dinámica de la lógica de la aplicación.  
+- **LocalStorage:** Para el almacenamiento de datos locales.  
+- **Base de Datos:** Para gestionar usuarios y productos.  
+- **Netlify:** Para el despliegue del proyecto.  
 
-Clona este repositorio:
-bash
-Copiar código
-git clone https://github.com/michelini25/Tienda-Compra-Y-Venta.git
-Abre el proyecto en tu editor de código favorito.
-Abre index.html en tu navegador para ver la plataforma en acción.
+---
 
-Visita el enlace de la versión desplegada en Netlify:
-Tienda Compra y Venta en Netlify
+## **Instrucciones de Uso**
+1. Clona el repositorio con:  
+   `git clone https://github.com/michell1215/Tienda-Compra-Y-Venta.git`  
+2. Abre el proyecto en un editor de código.  
+3. Abre el archivo `index.html` en tu navegador para ver la plataforma en acción.  
 
-Despliegue
-El proyecto está disponible en línea mediante Netlify. Puedes acceder a la plataforma en el siguiente enlace:
-Tienda Compra y Venta en Netlify
+---
 
-Resumen en Markdown (Abstract)
-
-Esta plataforma web está diseñada para facilitar la compraventa de mercancías mediante un sistema intuitivo y dinámico. Ofrece roles personalizados para compradores y vendedores, permitiendo a los usuarios gestionar sus actividades eficientemente. Además, utiliza tecnologías modernas como LocalStorage y JSON para garantizar una experiencia fluida y persistente.
+## **Resumen en Markdown (Abstract)**
+Proyecto diseñado para facilitar la compraventa de mercancías mediante un sistema intuitivo y dinámico. Ofrece funcionalidades para compradores y vendedores, permitiendo a los usuarios gestionar sus productos de manera eficiente, utilizando tecnologías modernas como LocalStorage y JSON para garantizar una experiencia fluida y persistente.
