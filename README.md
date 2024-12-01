@@ -1,4 +1,5 @@
-#Tienda-Compra-Y-Venta
+# Tienda-Compra-Y-Venta
+
 Descripción
 Plataforma web para la compraventa de mercancías. Este sistema permite:
 
