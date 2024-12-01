@@ -13,6 +13,7 @@ Mota Nicolas Adrian
 Nopal Alvarado Eric David
 Santillan Aguilar Vania
 Villanueva Tirado Karina Michelle
+
 Objetivos del Proyecto
 Implementar un sistema de gestión de usuarios con roles de compradores y vendedores.
 Manejar productos dinámicamente: Agregar, modificar y eliminar.
