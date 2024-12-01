@@ -7,12 +7,12 @@ A los compradores: Explorar productos, añadirlos a un carrito de compras, y man
 A los vendedores: Administrar los productos que ofrecen y monitorear su balance de ventas.
 Este proyecto utiliza tecnologías web modernas y almacenamiento local para ofrecer una experiencia fluida y eficiente para los usuarios.
 
-Integrantes
-Cortina Chavez Vania
-Mota Nicolas Adrian
-Nopal Alvarado Eric David
-Santillan Aguilar Vania
-Villanueva Tirado Karina Michelle
+INTEGRANTES: 
+- Cortina Chavez Vania
+- Mota Nicolas Adrian
+- Nopal Alvarado Eric David
+- Santillan Aguilar Vania
+- Villanueva Tirado Karina Michelle 
 
 Objetivos del Proyecto
 
