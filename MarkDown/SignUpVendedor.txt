@@ -1,0 +1,32 @@
+# Regístrate como Vendedor
+
+---
+
+## Formulario de Registro
+
+**Nombre:**
+
+[Campo de texto]
+
+
+**Correo Electrónico:**
+
+[Campo de correo electrónico]
+
+
+**Contraseña:**
+
+[Campo de contraseña]
+
+
+[**Registrar**](#)
+
+---
+
+¿Ya tienes una cuenta? [**Inicia Sesión**](loginV.html)
+
+---
+
+**Scripts**
+
+- [signupV.js](./assets/js/signupV.js)

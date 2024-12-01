@@ -1,0 +1,27 @@
+# Inicia Sesión como Vendedor
+
+---
+
+## Formulario de Inicio de Sesión
+
+**Correo Electrónico:**
+
+[Campo de correo electrónico]
+
+
+**Contraseña:**
+
+[Campo de contraseña]
+
+
+[**Ingresar**](#)
+
+---
+
+¿No tienes una cuenta? [**Regístrate**](signupV.html)
+
+---
+
+**Scripts**
+
+- [loginV.js](./assets/js/loginV.js)

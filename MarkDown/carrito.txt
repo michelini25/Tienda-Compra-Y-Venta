@@ -1,0 +1,39 @@
+# BazArt
+
+---
+
+## Menú Principal
+
+- [![Seguir Comprando](https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css)](./indexCarrito.html) **Seguir Comprando**
+- [![Carrito](https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css)](./carrito.html) **Carrito**
+
+---
+
+## Carrito
+
+**Tu carrito está vacío.**
+
+---
+
+### Productos en el carrito
+
+Este espacio se completará dinámicamente mediante `carrito.js`.
+
+---
+
+### Acciones del Carrito
+
+- **Vaciar carrito**
+- **Total**: `$7500`
+- [**Comprar ahora**](#)
+
+---
+
+&copy; 2024 Sakura Street
+
+---
+
+**Scripts**
+
+- [carrito.js](./assets/js/carrito.js)
+
